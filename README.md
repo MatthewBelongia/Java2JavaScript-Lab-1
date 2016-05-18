@@ -116,9 +116,10 @@ Write a method that prints out a 4x4 table square
 2: \*\*\*Output\*\*\*  
 3: A4x4tablesquare  
 4: |1|2| 3| 4|  
-5: |2|4| 6| 8|  
-6: |3|6| 9|12|  
-7: |4|8|12|16|  
+5: |1|2| 3| 4|  
+6: |2|4| 6| 8|  
+7: |3|6| 9|12|  
+8: |4|8|12|16|  
 
 ## 2.10 Table Squares
 Extend your answer to the last question produce a method that will print out a n x n table square
