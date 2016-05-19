@@ -62,9 +62,16 @@ function triangle(){
 function tablesquare4(){
 	for(var q =1;q<5;q++){
 		for(var r=1;r<5;r++){
+			var maxLen = (4*r);
+			maxLen = maxLen.toString().length;
 			var var1 = (q*r);
-			if(var1.toString().length<2){
-				var1 = " " + var1;
+			while(true){
+				if(var1.toString().length<maxLen){
+					var1 = " " + var1;
+				}
+				else{
+					break;
+				}
 			}
 			display.innerHTML+=""+"|"+var1;
 		}
